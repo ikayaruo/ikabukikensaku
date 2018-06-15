@@ -600,14 +600,14 @@ export default {
       name: 'バレルスピナー',
       subweapon: 'スプリンクラー',
       special: 'ハイパープレッサー',
-      spPoint: 180,
+      spPoint: 200,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/バレルスピナー'
     },
     {
       name: 'ヒーロースピナーレプリカ',
       subweapon: 'スプリンクラー',
       special: 'ハイパープレッサー',
-      spPoint: 180,
+      spPoint: 200,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ヒーロースピナー レプリカ'
     },
     {
