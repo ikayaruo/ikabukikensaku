@@ -96,8 +96,15 @@ export default {
       name: 'スプラシューターコラボ',
       subweapon: 'スプラッシュボム',
       special: 'ジェットパック',
-      spPoint: 230,
+      spPoint: 210,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スプラシューターコラボ'
+    },
+    {
+      name: 'オクタシューター レプリカ',
+      subweapon: 'スプラッシュボム',
+      special: 'ジェットパック',
+      spPoint: 210,
+      wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/オクタシューター レプリカ'
     },
     {
       name: 'プライムシューター',
@@ -117,7 +124,7 @@ export default {
       name: '52ガロン',
       subweapon: 'ポイントセンサー',
       special: 'イカスフィア',
-      spPoint: 180,
+      spPoint: 170,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/52ガロン'
     },
     {
@@ -362,7 +369,7 @@ export default {
       name: 'スプラローラーコラボ',
       subweapon: 'ジャンプビーコン',
       special: 'イカスフィア',
-      spPoint: 180,
+      spPoint: 170,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スプラローラーコラボ'
     },
     {
@@ -649,7 +656,7 @@ export default {
       name: 'スプラマニューバーコラボ',
       subweapon: 'カーリングボム',
       special: 'ジェットパック',
-      spPoint: 200,
+      spPoint: 190,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スプラマニューバーコラボ'
     },
     {
@@ -663,7 +670,7 @@ export default {
       name: 'スパッタリーヒュー',
       subweapon: 'ポイズンミスト',
       special: 'アメフラシ',
-      spPoint: 170,
+      spPoint: 180,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スパッタリー・ヒュー'
     },
     {
