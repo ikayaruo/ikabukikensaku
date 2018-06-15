@@ -509,7 +509,7 @@ export default {
       name: 'ソイチューバー',
       subweapon: 'キューバンボム',
       special: 'スーパーチャクチ',
-      spPoint: 180,
+      spPoint: 160,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ソイチューバー'
     },
     {
