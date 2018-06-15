@@ -11,6 +11,10 @@
     <ul class="list-group text-left">
       <li class="list-group-item"><a href="https://ika.queloud.net/" target="_blank">イカトドン</a></li>
     </ul>
+    <p>ソースコードは github にホストしています。</p>
+    <ul class="list-group text-left">
+      <li class="list-group-item"><a href="https://github.com/ikayaruo/ikabukikensaku" target="_blank">ikayaruo/ikabukikensaku</a></li>
+    </ul>
   </div>
 </template>
 
