@@ -620,7 +620,7 @@ export default {
       name: 'バケットスロッシャー',
       subweapon: 'キューバンボム',
       special: 'マルチミサイル',
-      spPoint: 190,
+      spPoint: 180,
       range: 3.4,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/バケットスロッシャー'
     },
@@ -628,7 +628,7 @@ export default {
       name: 'ヒーロースロッシャーレプリカ',
       subweapon: 'キューバンボム',
       special: 'マルチミサイル',
-      spPoint: 190,
+      spPoint: 180,
       range: 3.4,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ヒーロースロッシャー レプリカ'
     },
