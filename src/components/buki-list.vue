@@ -8,6 +8,7 @@
         <th>サブ</th>
         <th>スペシャル</th>
         <th>必要ポイント</th>
+        <th>射程</th>
       </thead>
       <tbody>
         <tr v-for="data in displayData" :key="data.name">
@@ -22,6 +23,9 @@
           <td>{{data.subweapon}}</td>
           <td>{{data.special}}</td>
           <td>{{data.spPoint}}</td>
+          <td>
+            {{data.range.toFixed(1)}} <span v-if="data.range === 0.0">?</span>
+          </td>
         </tr>
       </tbody>
     </table>
