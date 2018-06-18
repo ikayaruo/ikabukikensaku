@@ -69,6 +69,7 @@ export default {
       subweapon: 'スプラッシュボム',
       special: 'インクアーマー',
       spPoint: 180,
+      range: 3.1,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/わかばシューター'
     },
     {
@@ -76,6 +77,7 @@ export default {
       subweapon: 'ロボットボム',
       special: 'アメフラシ',
       spPoint: 190,
+      range: 3.1,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/もみじシューター'
     },
     {
@@ -83,6 +85,7 @@ export default {
       subweapon: 'クイックボム',
       special: 'スーパーチャクチ',
       spPoint: 200,
+      range: 3.3,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スプラシューター'
     },
     {
@@ -90,6 +93,7 @@ export default {
       subweapon: 'クイックボム',
       special: 'スーパーチャクチ',
       spPoint: 200,
+      range: 3.3,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ヒーローシューター レプリカ'
     },
     {
@@ -97,6 +101,7 @@ export default {
       subweapon: 'スプラッシュボム',
       special: 'ジェットパック',
       spPoint: 210,
+      range: 3.3,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スプラシューターコラボ'
     },
     {
@@ -104,6 +109,7 @@ export default {
       subweapon: 'スプラッシュボム',
       special: 'ジェットパック',
       spPoint: 210,
+      range: 3.3,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/オクタシューター レプリカ'
     },
     {
@@ -111,6 +117,7 @@ export default {
       subweapon: 'ポイントセンサー',
       special: 'アメフラシ',
       spPoint: 180,
+      range: 4.2,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/プライムシューター'
     },
     {
@@ -118,6 +125,7 @@ export default {
       subweapon: 'キューバンボム',
       special: 'バブルランチャー',
       spPoint: 180,
+      range: 4.2,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/プライムシューターコラボ'
     },
     {
@@ -125,6 +133,7 @@ export default {
       subweapon: 'ポイントセンサー',
       special: 'イカスフィア',
       spPoint: 170,
+      range: 3.5,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/52ガロン'
     },
     {
@@ -132,6 +141,7 @@ export default {
       subweapon: 'カーリングボム',
       special: 'ハイパープレッサー',
       spPoint: 190,
+      range: 3.5,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/52ガロンデコ'
     },
     {
@@ -139,6 +149,7 @@ export default {
       subweapon: 'スプリンクラー',
       special: 'インクアーマー',
       spPoint: 210,
+      range: 4.2,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/96ガロン'
     },
     {
@@ -146,6 +157,7 @@ export default {
       subweapon: 'スプラッシュシールド',
       special: 'スーパーチャクチ',
       spPoint: 190,
+      range: 4.2,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/96ガロンデコ'
     },
     {
@@ -153,6 +165,7 @@ export default {
       subweapon: 'ポイズンミスト',
       special: 'マルチミサイル',
       spPoint: 180,
+      range: 5.2,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ジェットスイーパー'
     },
     {
@@ -160,6 +173,7 @@ export default {
       subweapon: 'クイックボム',
       special: 'ハイパープレッサー',
       spPoint: 180,
+      range: 5.2,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ジェットスイーパーカスタム'
     },
     {
@@ -167,6 +181,7 @@ export default {
       subweapon: 'カーリングボム',
       special: 'スーパーチャクチ',
       spPoint: 170,
+      range: 2.7,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ボールドマーカー'
     },
     {
@@ -174,6 +189,7 @@ export default {
       subweapon: 'ジャンプビーコン',
       special: 'マルチミサイル',
       spPoint: 170,
+      range: 2.7,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ボールドマーカーネオ'
     },
     {
@@ -181,6 +197,7 @@ export default {
       subweapon: 'ポイズンミスト',
       special: 'ジェットパック',
       spPoint: 170,
+      range: 3.2,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/シャープマーカー'
     },
     {
@@ -188,6 +205,7 @@ export default {
       subweapon: 'クイックボム',
       special: 'キューバンボムピッチャー',
       spPoint: 200,
+      range: 3.2,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/シャープマーカーネオ'
     },
     {
@@ -195,6 +213,7 @@ export default {
       subweapon: 'キューバンボム',
       special: 'インクアーマー',
       spPoint: 200,
+      range: 3.3,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/N-ZAP85'
     },
     {
@@ -202,6 +221,7 @@ export default {
       subweapon: 'ロボットボム',
       special: 'マルチミサイル',
       spPoint: 190,
+      range: 3.3,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/N-ZAP89'
     },
     {
@@ -209,6 +229,7 @@ export default {
       subweapon: 'キューバンボム',
       special: 'カーリングボムピッチャー',
       spPoint: 170,
+      range: 3.1,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/プロモデラーMG'
     },
     {
@@ -216,6 +237,7 @@ export default {
       subweapon: 'スプリンクラー',
       special: 'イカスフィア',
       spPoint: 180,
+      range: 3.1,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/プロモデラーRG'
     },
     {
@@ -223,6 +245,7 @@ export default {
       subweapon: 'ポイズンミスト',
       special: 'スーパーチャクチ',
       spPoint: 180,
+      range: 2.6,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ホットブラスター'
     },
     {
@@ -230,6 +253,7 @@ export default {
       subweapon: 'ポイズンミスト',
       special: 'スーパーチャクチ',
       spPoint: 180,
+      range: 2.6,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ヒーローブラスター レプリカ'
     },
     {
@@ -237,6 +261,7 @@ export default {
       subweapon: 'ロボットボム',
       special: 'ジェットパック',
       spPoint: 180,
+      range: 2.6,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ホットブラスターカスタム'
     },
     {
@@ -244,6 +269,7 @@ export default {
       subweapon: 'キューバンボム',
       special: 'アメフラシ',
       spPoint: 190,
+      range: 0.0,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ロングブラスター'
     },
     {
@@ -251,6 +277,7 @@ export default {
       subweapon: 'カーリングボム',
       special: 'バブルランチャー',
       spPoint: 180,
+      range: 0.0,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ロングブラスターカスタム'
     },
     {
@@ -258,6 +285,7 @@ export default {
       subweapon: 'トラップ',
       special: 'スプラッシュボムピッチャー',
       spPoint: 210,
+      range: 3.5,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ラピッドブラスター'
     },
     {
@@ -265,6 +293,7 @@ export default {
       subweapon: 'キューバンボム',
       special: 'ジェットパック',
       spPoint: 180,
+      range: 3.5,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ラピッドブラスターデコ'
     },
     {
@@ -272,6 +301,7 @@ export default {
       subweapon: 'ポイズンミスト',
       special: 'アメフラシ',
       spPoint: 180,
+      range: 4.0,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ラピッドブラスターエリート'
     },
     {
@@ -279,6 +309,7 @@ export default {
       subweapon: 'スプラッシュシールド',
       special: 'インクアーマー',
       spPoint: 180,
+      range: 4.0,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ラピッドブラスターエリートデコ'
     },
     {
@@ -286,6 +317,7 @@ export default {
       subweapon: 'スプラッシュボム',
       special: 'イカスフィア',
       spPoint: 180,
+      range: 2.1,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ノヴァブラスター'
     },
     {
@@ -293,6 +325,7 @@ export default {
       subweapon: 'トラップ',
       special: 'キューバンボムピッチャー',
       spPoint: 170,
+      range: 2.1,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ノヴァブラスターネオ'
     },
     {
@@ -300,6 +333,7 @@ export default {
       subweapon: 'スプラッシュボム',
       special: 'ハイパープレッサー',
       spPoint: 170,
+      range: 2.2,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/クラッシュブラスター'
     },
     {
@@ -307,6 +341,7 @@ export default {
       subweapon: 'カーリングボム',
       special: 'マルチミサイル',
       spPoint: 170,
+      range: 2.2,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/クラッシュブラスターネオ'
     },
     {
@@ -314,6 +349,7 @@ export default {
       subweapon: 'カーリングボム',
       special: 'イカスフィア',
       spPoint: 180,
+      range: 4.0,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/L3リールガン'
     },
     {
@@ -321,6 +357,7 @@ export default {
       subweapon: 'クイックボム',
       special: 'ジェットパック',
       spPoint: 180,
+      range: 4.0,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/L3リールガンD'
     },
     {
@@ -328,6 +365,7 @@ export default {
       subweapon: 'ポイントセンサー',
       special: 'マルチミサイル',
       spPoint: 180,
+      range: 4.2,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/H3リールガン'
     },
     {
@@ -335,6 +373,7 @@ export default {
       subweapon: 'キューバンボム',
       special: 'インクアーマー',
       spPoint: 190,
+      range: 4.2,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/H3リールガンD'
     },
     {
@@ -342,6 +381,7 @@ export default {
       subweapon: 'スプラッシュシールド',
       special: 'ハイパープレッサー',
       spPoint: 180,
+      range: 4.5,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ボトルガイザー'
     },
     {
@@ -349,6 +389,7 @@ export default {
       subweapon: 'スプラッシュボム',
       special: 'バブルランチャー',
       spPoint: 180,
+      range: 4.5,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ボトルガイザーフォイル'
     },
     {
@@ -356,6 +397,7 @@ export default {
       subweapon: 'カーリングボム',
       special: 'スーパーチャクチ',
       spPoint: 180,
+      range: 4.0,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スプラローラー'
     },
     {
@@ -363,6 +405,7 @@ export default {
       subweapon: 'カーリングボム',
       special: 'スーパーチャクチ',
       spPoint: 180,
+      range: 4.0,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ヒーローローラー  レプリカ'
     },
     {
@@ -370,6 +413,7 @@ export default {
       subweapon: 'ジャンプビーコン',
       special: 'イカスフィア',
       spPoint: 170,
+      range: 4.0,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スプラローラーコラボ'
     },
     {
@@ -377,6 +421,7 @@ export default {
       subweapon: 'ロボットボム',
       special: 'アメフラシ',
       spPoint: 160,
+      range: 3.4,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/カーボンローラー'
     },
     {
@@ -384,6 +429,7 @@ export default {
       subweapon: 'クイックボム',
       special: 'ロボットボムピッチャー',
       spPoint: 190,
+      range: 3.4,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/カーボンローラーデコ'
     },
     {
@@ -391,6 +437,7 @@ export default {
       subweapon: 'スプラッシュシールド',
       special: 'スプラッシュボムピッチャー',
       spPoint: 180,
+      range: 5.1,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ヴァリアブルローラー'
     },
     {
@@ -398,6 +445,7 @@ export default {
       subweapon: 'キューバンボム',
       special: 'マルチミサイル',
       spPoint: 180,
+      range: 5.1,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ヴァリアブルローラーフォイル'
     },
     {
@@ -405,6 +453,7 @@ export default {
       subweapon: 'トラップ',
       special: 'ハイパープレッサー',
       spPoint: 180,
+      range: 5.9,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ダイナモローラー'
     },
     {
@@ -412,6 +461,7 @@ export default {
       subweapon: 'スプラッシュボム',
       special: 'インクアーマー',
       spPoint: 180,
+      range: 5.9,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ダイナモローラーテスラ'
     },
     {
@@ -419,6 +469,7 @@ export default {
       subweapon: 'スプラッシュボム',
       special: 'スーパーチャクチ',
       spPoint: 160,
+      range: 2.3,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/パブロ'
     },
     {
@@ -426,6 +477,7 @@ export default {
       subweapon: 'トラップ',
       special: 'イカスフィア',
       spPoint: 180,
+      range: 2.3,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/パブロ・ヒュー'
     },
     {
@@ -433,6 +485,7 @@ export default {
       subweapon: 'ロボットボム',
       special: 'ジェットパック',
       spPoint: 180,
+      range: 2.6,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ホクサイ'
     },
     {
@@ -440,6 +493,7 @@ export default {
       subweapon: 'ロボットボム',
       special: 'ジェットパック',
       spPoint: 180,
+      range: 2.6,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ヒーローブラシ レプリカ'
     },
     {
@@ -447,6 +501,7 @@ export default {
       subweapon: 'ジャンプビーコン',
       special: 'マルチミサイル',
       spPoint: 170,
+      range: 2.6,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ホクサイ・ヒュー'
     },
     {
@@ -454,6 +509,7 @@ export default {
       subweapon: 'スプラッシュボム',
       special: 'ハイパープレッサー',
       spPoint: 180,
+      range: 5.7,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スプラチャージャー'
     },
     {
@@ -461,6 +517,7 @@ export default {
       subweapon: 'スプラッシュボム',
       special: 'ハイパープレッサー',
       spPoint: 180,
+      range: 5.7,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ヒーローチャージャー レプリカ'
     },
     {
@@ -468,6 +525,7 @@ export default {
       subweapon: 'スプラッシュボム',
       special: 'ハイパープレッサー',
       spPoint: 180,
+      range: 6.1,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スプラスコープ'
     },
     {
@@ -475,6 +533,7 @@ export default {
       subweapon: 'スプラッシュシールド',
       special: 'キューバンボムピッチャー',
       spPoint: 190,
+      range: 5.7,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スプラチャージャーコラボ'
     },
     {
@@ -482,6 +541,7 @@ export default {
       subweapon: 'スプラッシュシールド',
       special: 'キューバンボムピッチャー',
       spPoint: 190,
+      range: 6.1,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スプラスコープコラボ'
     },
     {
@@ -489,6 +549,7 @@ export default {
       subweapon: 'トラップ',
       special: 'アメフラシ',
       spPoint: 190,
+      range: 6.7,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/リッター4K'
     },
     {
@@ -496,6 +557,7 @@ export default {
       subweapon: 'トラップ',
       special: 'アメフラシ',
       spPoint: 190,
+      range: 7.1,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/4Kスコープ'
     },
     {
@@ -503,6 +565,7 @@ export default {
       subweapon: 'ジャンプビーコン',
       special: 'バブルランチャー',
       spPoint: 170,
+      range: 6.7,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/リッター4Kカスタム'
     },
     {
@@ -510,6 +573,7 @@ export default {
       subweapon: 'ジャンプビーコン',
       special: 'バブルランチャー',
       spPoint: 170,
+      range: 7.1,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/4Kスコープカスタム'
     },
     {
@@ -517,6 +581,7 @@ export default {
       subweapon: 'キューバンボム',
       special: 'スーパーチャクチ',
       spPoint: 160,
+      range: 4.7,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ソイチューバー'
     },
     {
@@ -524,6 +589,7 @@ export default {
       subweapon: 'カーリングボム',
       special: 'ジェットパック',
       spPoint: 170,
+      range: 4.7,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ソイチューバーカスタム'
     },
     {
@@ -531,6 +597,7 @@ export default {
       subweapon: 'ポイントセンサー',
       special: 'インクアーマー',
       spPoint: 180,
+      range: 4.2,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スクイックリンα'
     },
     {
@@ -538,6 +605,7 @@ export default {
       subweapon: 'ロボットボム',
       special: 'イカスフィア',
       spPoint: 180,
+      range: 4.2,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スクイックリンβ'
     },
     {
@@ -545,6 +613,7 @@ export default {
       subweapon: 'カーリングボム',
       special: 'マルチミサイル',
       spPoint: 180,
+      range: 5.0,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/14式竹筒銃・甲'
     },
     {
@@ -552,6 +621,7 @@ export default {
       subweapon: 'キューバンボム',
       special: 'マルチミサイル',
       spPoint: 190,
+      range: 3.4,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/バケットスロッシャー'
     },
     {
@@ -559,6 +629,7 @@ export default {
       subweapon: 'キューバンボム',
       special: 'マルチミサイル',
       spPoint: 190,
+      range: 3.4,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ヒーロースロッシャー レプリカ'
     },
     {
@@ -566,6 +637,7 @@ export default {
       subweapon: 'スプリンクラー',
       special: 'イカスフィア',
       spPoint: 220,
+      range: 3.4,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/バケットスロッシャーデコ'
     },
     {
@@ -573,6 +645,7 @@ export default {
       subweapon: 'クイックボム',
       special: 'インクアーマー',
       spPoint: 190,
+      range: 2.7,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ヒッセン'
     },
     {
@@ -580,6 +653,7 @@ export default {
       subweapon: 'スプラッシュボム',
       special: 'アメフラシ',
       spPoint: 180,
+      range: 2.7,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ヒッセン・ヒュー'
     },
     {
@@ -587,6 +661,7 @@ export default {
       subweapon: 'ロボットボム',
       special: 'ハイパープレッサー',
       spPoint: 170,
+      range: 3.5,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スクリュースロッシャー'
     },
     {
@@ -594,6 +669,7 @@ export default {
       subweapon: 'ポイントセンサー',
       special: 'スプラッシュボムピッチャー',
       spPoint: 180,
+      range: 3.5,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スクリュースロッシャーネオ'
     },
     {
@@ -601,6 +677,7 @@ export default {
       subweapon: 'スプリンクラー',
       special: 'ハイパープレッサー',
       spPoint: 200,
+      range: 5.1,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/バレルスピナー'
     },
     {
@@ -608,6 +685,7 @@ export default {
       subweapon: 'スプリンクラー',
       special: 'ハイパープレッサー',
       spPoint: 200,
+      range: 5.1,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ヒーロースピナー レプリカ'
     },
     {
@@ -615,6 +693,7 @@ export default {
       subweapon: 'スプラッシュシールド',
       special: 'バブルランチャー',
       spPoint: 180,
+      range: 5.1,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/バレルスピナーデコ'
     },
     {
@@ -622,6 +701,7 @@ export default {
       subweapon: 'クイックボム',
       special: 'マルチミサイル',
       spPoint: 180,
+      range: 3.9,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スプラスピナー'
     },
     {
@@ -629,6 +709,7 @@ export default {
       subweapon: 'カーリングボム',
       special: 'アメフラシ',
       spPoint: 190,
+      range: 3.9,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スプラスピナーコラボ'
     },
     {
@@ -636,6 +717,7 @@ export default {
       subweapon: 'ロボットボム',
       special: 'スーパーチャクチ',
       spPoint: 190,
+      range: 6.0,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ハイドラント'
     },
     {
@@ -643,6 +725,7 @@ export default {
       subweapon: 'クイックボム',
       special: 'マルチミサイル',
       spPoint: 190,
+      range: 3.3,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スプラマニューバー'
     },
     {
@@ -650,6 +733,7 @@ export default {
       subweapon: 'クイックボム',
       special: 'マルチミサイル',
       spPoint: 190,
+      range: 3.3,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ヒーローマニューバー レプリカ'
     },
     {
@@ -657,6 +741,7 @@ export default {
       subweapon: 'カーリングボム',
       special: 'ジェットパック',
       spPoint: 190,
+      range: 3.3,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スプラマニューバーコラボ'
     },
     {
@@ -664,6 +749,7 @@ export default {
       subweapon: 'ジャンプビーコン',
       special: 'キューバンボムピッチャー',
       spPoint: 180,
+      range: 2.8,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スパッタリー'
     },
     {
@@ -671,6 +757,7 @@ export default {
       subweapon: 'ポイズンミスト',
       special: 'アメフラシ',
       spPoint: 180,
+      range: 2.8,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スパッタリー・ヒュー'
     },
     {
@@ -678,6 +765,7 @@ export default {
       subweapon: 'ポイントセンサー',
       special: 'マルチミサイル',
       spPoint: 190,
+      range: 4.2,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/デュアルスイーパー'
     },
     {
@@ -685,6 +773,7 @@ export default {
       subweapon: 'スプラッシュボム',
       special: 'アメフラシ',
       spPoint: 190,
+      range: 4.2,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/デュアルスイーパーカスタム'
     },
     {
@@ -692,6 +781,7 @@ export default {
       subweapon: 'トラップ',
       special: 'ジェットパック',
       spPoint: 180,
+      range: 4.3,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ケルビン525'
     },
     {
@@ -699,6 +789,7 @@ export default {
       subweapon: 'スプラッシュシールド',
       special: 'イカスフィア',
       spPoint: 180,
+      range: 4.3,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ケルビン525デコ'
     },
     {
@@ -706,6 +797,7 @@ export default {
       subweapon: 'ロボットボム',
       special: 'スーパーチャクチ',
       spPoint: 170,
+      range: 3.8,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/クアッドホッパーブラック'
     },
     {
@@ -713,6 +805,7 @@ export default {
       subweapon: 'スプリンクラー',
       special: 'アメフラシ',
       spPoint: 190,
+      range: 3.5,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/パラシェルター'
     },
     {
@@ -720,6 +813,7 @@ export default {
       subweapon: 'スプリンクラー',
       special: 'アメフラシ',
       spPoint: 190,
+      range: 3.5,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ヒーローシェルター レプリカ'
     },
     {
@@ -727,6 +821,7 @@ export default {
       subweapon: 'ロボットボム',
       special: 'スプラッシュボムピッチャー',
       spPoint: 180,
+      range: 3.5,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/パラシェルターソレーラ'
     },
     {
@@ -734,6 +829,7 @@ export default {
       subweapon: 'ジャンプビーコン',
       special: 'バブルランチャー',
       spPoint: 170,
+      range: 4.0,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/キャンピングシェルター'
     },
     {
@@ -741,6 +837,7 @@ export default {
       subweapon: 'トラップ',
       special: 'スーパーチャクチ',
       spPoint: 160,
+      range: 0.0,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スパイガジェット'
     },
     {
@@ -748,6 +845,7 @@ export default {
       subweapon: 'スプラッシュボム',
       special: 'イカスフィア',
       spPoint: 180,
+      range: 0.0,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スパイガジェットソレーラ'
     }
   ]
