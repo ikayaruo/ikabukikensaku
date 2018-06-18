@@ -27,7 +27,6 @@ export default {
   },
   created: function () {
     this.specials = Const.SPECIALS
-    console.log(this.specials)
   }
 }
 </script>

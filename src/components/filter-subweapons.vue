@@ -27,7 +27,6 @@ export default {
   },
   created: function () {
     this.subweapons = Const.SUBWEAPONS
-    console.log(this.subweapons)
   }
 }
 </script>
