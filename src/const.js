@@ -617,6 +617,14 @@ export default {
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/14式竹筒銃・甲'
     },
     {
+      name: '14式竹筒銃乙',
+      subweapon: 'ポイズンミスト',
+      special: 'クイックボムピッチャー',
+      spPoint: 160,
+      range: 5.0,
+      wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/14式竹筒銃・乙'
+    },
+    {
       name: 'バケットスロッシャー',
       subweapon: 'キューバンボム',
       special: 'マルチミサイル',
@@ -673,6 +681,14 @@ export default {
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スクリュースロッシャーネオ'
     },
     {
+      name: 'エクスプロッシャー',
+      subweapon: 'スプリンクラー',
+      special: 'バブルランチャー',
+      spPoint: 190,
+      range: 0.0,
+      wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/エクスプロッシャー'
+    },
+    {
       name: 'バレルスピナー',
       subweapon: 'スプリンクラー',
       special: 'ハイパープレッサー',
@@ -719,6 +735,14 @@ export default {
       spPoint: 190,
       range: 6.0,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ハイドラント'
+    },
+    {
+      name: 'クーゲルシュライバー',
+      subweapon: 'ポイズンミスト',
+      special: 'ジェットパック',
+      spPoint: 190,
+      range: 5.7,
+      wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/クーゲルシュライバー'
     },
     {
       name: 'スプラマニューバー',
@@ -831,6 +855,14 @@ export default {
       spPoint: 170,
       range: 4.0,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/キャンピングシェルター'
+    },
+    {
+      name: 'キャンピングシェルターソレーラ',
+      subweapon: 'スプラッシュシールド',
+      special: 'カーリングボムピッチャー',
+      spPoint: 180,
+      range: 4.0,
+      wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/キャンピングシェルターソレーラ'
     },
     {
       name: 'スパイガジェット',
