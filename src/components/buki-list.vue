@@ -13,15 +13,21 @@
       <tbody>
         <tr v-for="data in displayData" :key="data.name">
           <td>
-            <img :src="imgPath(data.name)" />
+            <img :src="imgPath('buki', data.name)" />
           </td>
           <td>
             <a :href="data.wiki" target="_blank">
               {{data.name}}
             </a>
           </td>
-          <td>{{data.subweapon}}</td>
-          <td>{{data.special}}</td>
+          <td>
+            {{data.subweapon}}<br />
+            <img :src="imgPath('subweapons', data.subweapon)" class="icon" />
+          </td>
+          <td>
+            {{data.special}}<br />
+            <img :src="imgPath('specials', data.special)" class="icon" />
+          </td>
           <td>{{data.spPoint}}</td>
           <td>
             {{data.range.toFixed(1)}} <span v-if="data.range === 0.0">?</span>
@@ -40,8 +46,11 @@ export default {
     }
   },
   methods: {
-    imgPath: function (imgName) {
-      return require('../assets/icons/buki/' + imgName + '.png')
+    imgPath: function (type, imgName) {
+      if (imgName.match('ボムピッチャー')) {
+        imgName = 'ボムピッチャー'
+      }
+      return require('../assets/icons/' + type + '/' + imgName + '.png')
     }
   }
 }
@@ -50,5 +59,8 @@ export default {
 <style scoped>
   img {
     width: 100px;
+  }
+  img.icon {
+    width: 60px;
   }
 </style>
