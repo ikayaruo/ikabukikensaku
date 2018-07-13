@@ -156,7 +156,7 @@ export default {
       name: '96ガロンデコ',
       subweapon: 'スプラッシュシールド',
       special: 'スーパーチャクチ',
-      spPoint: 190,
+      spPoint: 180,
       range: 4.2,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/96ガロンデコ'
     },
@@ -260,7 +260,7 @@ export default {
       name: 'ホットブラスターカスタム',
       subweapon: 'ロボットボム',
       special: 'ジェットパック',
-      spPoint: 180,
+      spPoint: 190,
       range: 2.6,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ホットブラスターカスタム'
     },
@@ -292,7 +292,7 @@ export default {
       name: 'ラピッドブラスターデコ',
       subweapon: 'キューバンボム',
       special: 'ジェットパック',
-      spPoint: 180,
+      spPoint: 190,
       range: 3.5,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ラピッドブラスターデコ'
     },
@@ -332,7 +332,7 @@ export default {
       name: 'クラッシュブラスター',
       subweapon: 'スプラッシュボム',
       special: 'ハイパープレッサー',
-      spPoint: 170,
+      spPoint: 180,
       range: 2.2,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/クラッシュブラスター'
     },
@@ -340,7 +340,7 @@ export default {
       name: 'クラッシュブラスターネオ',
       subweapon: 'カーリングボム',
       special: 'マルチミサイル',
-      spPoint: 170,
+      spPoint: 180,
       range: 2.2,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/クラッシュブラスターネオ'
     },
@@ -628,7 +628,7 @@ export default {
       name: 'バケットスロッシャー',
       subweapon: 'キューバンボム',
       special: 'マルチミサイル',
-      spPoint: 180,
+      spPoint: 190,
       range: 3.4,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/バケットスロッシャー'
     },
@@ -636,7 +636,7 @@ export default {
       name: 'ヒーロースロッシャーレプリカ',
       subweapon: 'キューバンボム',
       special: 'マルチミサイル',
-      spPoint: 180,
+      spPoint: 190,
       range: 3.4,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ヒーロースロッシャー レプリカ'
     },
@@ -716,7 +716,7 @@ export default {
       name: 'スプラスピナー',
       subweapon: 'クイックボム',
       special: 'マルチミサイル',
-      spPoint: 180,
+      spPoint: 190,
       range: 3.9,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スプラスピナー'
     },
@@ -740,7 +740,7 @@ export default {
       name: 'クーゲルシュライバー',
       subweapon: 'ポイズンミスト',
       special: 'ジェットパック',
-      spPoint: 190,
+      spPoint: 200,
       range: 5.7,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/クーゲルシュライバー'
     },
@@ -764,7 +764,7 @@ export default {
       name: 'スプラマニューバーコラボ',
       subweapon: 'カーリングボム',
       special: 'ジェットパック',
-      spPoint: 190,
+      spPoint: 200,
       range: 3.3,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スプラマニューバーコラボ'
     },
@@ -796,7 +796,7 @@ export default {
       name: 'デュアルスイーパーカスタム',
       subweapon: 'スプラッシュボム',
       special: 'アメフラシ',
-      spPoint: 190,
+      spPoint: 200,
       range: 4.2,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/デュアルスイーパーカスタム'
     },
@@ -820,7 +820,7 @@ export default {
       name: 'クアッドホッパーブラック',
       subweapon: 'ロボットボム',
       special: 'スーパーチャクチ',
-      spPoint: 170,
+      spPoint: 190,
       range: 3.8,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/クアッドホッパーブラック'
     },
