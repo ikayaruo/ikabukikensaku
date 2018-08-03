@@ -689,6 +689,14 @@ export default {
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/エクスプロッシャー'
     },
     {
+      name: 'オーバーフロッシャー',
+      subweapon: 'スプラッシュシールド',
+      special: 'アメフラシ',
+      spPoint: 180,
+      range: 5.4,
+      wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/オーバーフロッシャー'
+    },
+    {
       name: 'バレルスピナー',
       subweapon: 'スプリンクラー',
       special: 'ハイパープレッサー',
@@ -737,12 +745,28 @@ export default {
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ハイドラント'
     },
     {
+      name: 'ハイドラントカスタム',
+      subweapon: 'トラップ',
+      special: 'インクアーマー',
+      spPoint: 180,
+      range: 6.0,
+      wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ハイドラントカスタム'
+    },
+    {
       name: 'クーゲルシュライバー',
       subweapon: 'ポイズンミスト',
       special: 'ジェットパック',
       spPoint: 200,
       range: 5.7,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/クーゲルシュライバー'
+    },
+    {
+      name: 'ノーチラス47',
+      subweapon: 'ポイントセンサー',
+      special: 'イカスフィア',
+      spPoint: 180,
+      range: 4.0,
+      wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ノーチラス47'
     },
     {
       name: 'スプラマニューバー',
@@ -823,6 +847,14 @@ export default {
       spPoint: 190,
       range: 3.8,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/クアッドホッパーブラック'
+    },
+    {
+      name: 'クアッドホッパーホワイト',
+      subweapon: 'スプリンクラー',
+      special: 'ロボットボムピッチャー',
+      spPoint: 200,
+      range: 3.8,
+      wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/クアッドホッパーホワイト'
     },
     {
       name: 'パラシェルター',
