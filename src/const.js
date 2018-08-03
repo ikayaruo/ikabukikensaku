@@ -685,7 +685,7 @@ export default {
       subweapon: 'スプリンクラー',
       special: 'バブルランチャー',
       spPoint: 190,
-      range: 0.0,
+      range: 4.7,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/エクスプロッシャー'
     },
     {
