@@ -1,13 +1,13 @@
 <template>
   <div @click="filter()" class="wrapper">
-    <img :src="imgPath(special.name)" :class="{ selected: isSelected }" />
+    <img :src="imgPath(bomb.name)" :class="{ selected: isSelected, disabled: isDisabled }" />
   </div>
 </template>
 
 <script>
 export default {
   props: [
-    'special'
+    'bomb'
   ],
   data: function () {
     return {
@@ -15,14 +15,18 @@ export default {
   },
   computed: {
     isSelected: function () {
-      return this.$store.state.searchConditions.special === this.special.name
+      return this.$store.state.searchConditions.bomb === this.bomb.name
+    },
+    isDisabled: function () {
+      return this.$store.state.searchConditions.special !== 'ボムピッチャー'
     }
   },
   methods: {
     imgPath: function (imgName) {
-      return require('../assets/icons/specials/' + imgName + '.png')
+      return require('../assets/icons/bombs/' + imgName + '.png')
     },
     filter: function () {
+      if (this.isDisabled) return
       if (this.isSelected === true) {
         this.removeFilter()
       } else {
@@ -31,13 +35,11 @@ export default {
     },
     addFilter: function () {
       this.$store.dispatch('filterDisplayData', {
-        special: this.special.name,
-        bomb: ''
+        bomb: this.bomb.name
       })
     },
     removeFilter: function () {
       this.$store.dispatch('filterDisplayData', {
-        special: '',
         bomb: ''
       })
     }
@@ -47,6 +49,7 @@ export default {
 
 <style scoped>
   img {
+    width: 70px;
     padding: 10px;
     background-color: black;
     border: 6px solid black;
@@ -56,5 +59,9 @@ export default {
   }
   .selected {
     border: 6px solid red;
+  }
+  .disabled {
+    background-color: gray;
+    border: 6px solid gray;
   }
 </style>

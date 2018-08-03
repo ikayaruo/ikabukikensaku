@@ -2,8 +2,13 @@
   <div class="container">
     <header-vue></header-vue>
     <div class="filter d-flex justify-content-between">
-      <filter-subweapon></filter-subweapon>
-      <filter-special></filter-special>
+      <div>
+        <filter-subweapon></filter-subweapon>
+      </div>
+      <div>
+        <filter-special></filter-special>
+        <filter-bomb></filter-bomb>
+      </div>
     </div>
 
     <buki-list></buki-list>
@@ -16,6 +21,7 @@
 import HeaderVue from '@/components/header-vue'
 import FilterSubweapon from '@/components/filter-subweapons'
 import FilterSpecial from '@/components/filter-specials'
+import FilterBomb from '@/components/filter-bombs'
 import BukiList from '@/components/buki-list'
 import Links from '@/components/links'
 import FooterVue from '@/components/footer-vue'
@@ -25,6 +31,7 @@ export default {
     HeaderVue: HeaderVue,
     FilterSubweapon: FilterSubweapon,
     FilterSpecial: FilterSpecial,
+    FilterBomb: FilterBomb,
     BukiList: BukiList,
     Links: Links,
     FooterVue: FooterVue
