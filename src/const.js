@@ -63,6 +63,23 @@ export default {
       name: 'バブルランチャー'
     }
   ],
+  BOMBS: [
+    {
+      name: 'スプラッシュ'
+    },
+    {
+      name: 'キューバン'
+    },
+    {
+      name: 'クイック'
+    },
+    {
+      name: 'カーリング'
+    },
+    {
+      name: 'ロボット'
+    }
+  ],
   BUKI_LIST: [
     {
       name: 'わかばシューター',

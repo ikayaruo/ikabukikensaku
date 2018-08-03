@@ -27,6 +27,7 @@
           <td>
             {{data.special}}<br />
             <img :src="imgPath('specials', data.special)" class="icon" />
+            <img :src="imgPathBombPitcher(data.special)" class="bombpitcher-icon" v-if="data.special.indexOf('ボムピッチャー') > -1"/>
           </td>
           <td>{{data.spPoint}}</td>
           <td>
@@ -51,6 +52,11 @@ export default {
         imgName = 'ボムピッチャー'
       }
       return require('../assets/icons/' + type + '/' + imgName + '.png')
+    },
+    imgPathBombPitcher: function (imgName) {
+      imgName = imgName.replace('ボムピッチャー', '')
+      imgName = imgName.replace('ボム', '')
+      return require('../assets/icons/bombs/' + imgName + '.png')
     }
   }
 }
@@ -62,5 +68,8 @@ export default {
   }
   img.icon {
     width: 60px;
+  }
+  img.bombpitcher-icon {
+    width: 30px;
   }
 </style>

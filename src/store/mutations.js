@@ -5,17 +5,26 @@ export const mutations = {
   SET_DISPLAY_DATA: (state, payload) => {
     var subweapon = state.searchConditions.subweapon
     var special = state.searchConditions.special
+    var bomb = state.searchConditions.bomb
 
     if (subweapon === '' && special === '') {
       state.displayData = state.masterData.concat()
     } else {
       state.displayData = state.masterData.filter(buki => {
-        if (subweapon === '') {
-          if (buki.special.indexOf(special) > -1) return buki
-        } else if (special === '') {
-          if (buki.subweapon.indexOf(subweapon) > -1) return buki
+        if (special === '') {
+          if (buki.subweapon === subweapon) return buki
+        } else if (subweapon === '') {
+          if (bomb === '') {
+            if (buki.special.indexOf(special) > -1) return buki
+          } else {
+            if (buki.special === bomb + special) return buki
+          }
         } else {
-          if (buki.subweapon.indexOf(subweapon) > -1 && buki.special.indexOf(special) > -1) return buki
+          if (bomb === '') {
+            if (buki.subweapon === subweapon && buki.special.indexOf(special) > -1) return buki
+          } else {
+            if (buki.subweapon === subweapon && buki.special === bomb + special) return buki
+          }
         }
       })
     }

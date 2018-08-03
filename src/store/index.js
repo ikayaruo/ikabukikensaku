@@ -21,7 +21,8 @@ var state = {
   displayData: sortedBukiList.concat(),
   searchConditions: {
     subweapon: '',
-    special: ''
+    special: '',
+    bomb: ''
   }
 }
 
