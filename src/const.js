@@ -130,6 +130,14 @@ export default {
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/オクタシューター レプリカ'
     },
     {
+      name: 'スプラシューターベッチュー',
+      subweapon: 'キューバンボム',
+      special: 'マルチミサイル',
+      spPoint: 180,
+      range: 3.3,
+      wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スプラシューターベッチュー'
+    },
+    {
       name: 'プライムシューター',
       subweapon: 'ポイントセンサー',
       special: 'アメフラシ',
@@ -221,7 +229,7 @@ export default {
       name: 'シャープマーカーネオ',
       subweapon: 'クイックボム',
       special: 'キューバンボムピッチャー',
-      spPoint: 200,
+      spPoint: 210,
       range: 3.2,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/シャープマーカーネオ'
     },
@@ -301,7 +309,7 @@ export default {
       name: 'ラピッドブラスター',
       subweapon: 'トラップ',
       special: 'スプラッシュボムピッチャー',
-      spPoint: 210,
+      spPoint: 200,
       range: 3.5,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/ラピッドブラスター'
     },
@@ -434,6 +442,14 @@ export default {
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スプラローラーコラボ'
     },
     {
+      name: 'スプラローラーベッチュー',
+      subweapon: 'スプラッシュボム',
+      special: 'バブルランチャー',
+      spPoint: 180,
+      range: 4.0,
+      wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スプラローラーベッチュー'
+    },
+    {
       name: 'カーボンローラー',
       subweapon: 'ロボットボム',
       special: 'アメフラシ',
@@ -549,7 +565,7 @@ export default {
       name: 'スプラチャージャーコラボ',
       subweapon: 'スプラッシュシールド',
       special: 'キューバンボムピッチャー',
-      spPoint: 190,
+      spPoint: 200,
       range: 5.7,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スプラチャージャーコラボ'
     },
@@ -557,9 +573,25 @@ export default {
       name: 'スプラスコープコラボ',
       subweapon: 'スプラッシュシールド',
       special: 'キューバンボムピッチャー',
-      spPoint: 190,
+      spPoint: 200,
       range: 6.1,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スプラスコープコラボ'
+    },
+    {
+      name: 'スプラチャージャーベッチュー',
+      subweapon: 'スプリンクラー',
+      special: 'イカスフィア',
+      spPoint: 190,
+      range: 5.7,
+      wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スプラチャージャーベッチュー'
+    },
+    {
+      name: 'スプラスコープベッチュー',
+      subweapon: 'スプリンクラー',
+      special: 'イカスフィア',
+      spPoint: 190,
+      range: 6.1,
+      wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スプラスコープベッチュー'
     },
     {
       name: 'リッター4k',
@@ -701,7 +733,7 @@ export default {
       name: 'エクスプロッシャー',
       subweapon: 'スプリンクラー',
       special: 'バブルランチャー',
-      spPoint: 190,
+      spPoint: 200,
       range: 4.7,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/エクスプロッシャー'
     },
@@ -810,6 +842,14 @@ export default {
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スプラマニューバーコラボ'
     },
     {
+      name: 'スプラマニューバーベッチュー',
+      subweapon: 'キューバンボム',
+      special: 'イカスフィア',
+      spPoint: 190,
+      range: 3.3,
+      wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スプラマニューバーベッチュー'
+    },
+    {
       name: 'スパッタリー',
       subweapon: 'ジャンプビーコン',
       special: 'キューバンボムピッチャー',
@@ -837,7 +877,7 @@ export default {
       name: 'デュアルスイーパーカスタム',
       subweapon: 'スプラッシュボム',
       special: 'アメフラシ',
-      spPoint: 200,
+      spPoint: 210,
       range: 4.2,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/デュアルスイーパーカスタム'
     },
@@ -901,7 +941,7 @@ export default {
       name: 'キャンピングシェルター',
       subweapon: 'ジャンプビーコン',
       special: 'バブルランチャー',
-      spPoint: 170,
+      spPoint: 180,
       range: 4.0,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/キャンピングシェルター'
     },
@@ -918,7 +958,7 @@ export default {
       subweapon: 'トラップ',
       special: 'スーパーチャクチ',
       spPoint: 160,
-      range: 0.0,
+      range: 3.3,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スパイガジェット'
     },
     {
@@ -926,7 +966,7 @@ export default {
       subweapon: 'スプラッシュボム',
       special: 'イカスフィア',
       spPoint: 180,
-      range: 0.0,
+      range: 3.3,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スパイガジェットソレーラ'
     }
   ]
