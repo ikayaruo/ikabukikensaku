@@ -918,7 +918,7 @@ export default {
       subweapon: 'トラップ',
       special: 'スーパーチャクチ',
       spPoint: 160,
-      range: 0.0,
+      range: 3.3,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スパイガジェット'
     },
     {
@@ -926,7 +926,7 @@ export default {
       subweapon: 'スプラッシュボム',
       special: 'イカスフィア',
       spPoint: 180,
-      range: 0.0,
+      range: 3.3,
       wiki: 'https://wikiwiki.jp/splatoon2mix/ブキ/スパイガジェットソレーラ'
     }
   ]
