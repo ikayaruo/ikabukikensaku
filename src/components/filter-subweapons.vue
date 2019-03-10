@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2>サブ</h2>
-    <div class="d-flex flex-wrap">
+    <div class="d-flex flex-wrap justify-content-start">
       <subweapon v-for="subweapon in subweapons" :key="subweapon.name" :subweapon="subweapon"></subweapon>
     </div>
   </div>

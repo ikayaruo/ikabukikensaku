@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2>ボムピッチャー</h2>
-    <div class="d-flex flex-wrap">
+    <div class="d-flex flex-wrap justify-content-start">
       <bomb v-for="bomb in bombs" :key="bomb.name" :bomb="bomb"></bomb>
     </div>
   </div>

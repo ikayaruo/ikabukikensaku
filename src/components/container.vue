@@ -1,11 +1,11 @@
 <template>
   <div class="container">
     <header-vue></header-vue>
-    <div class="filter d-flex justify-content-between">
-      <div>
+    <div class="filter row">
+      <div class="col-sm-6">
         <filter-subweapon></filter-subweapon>
       </div>
-      <div>
+      <div class="col-sm-6">
         <filter-special></filter-special>
         <filter-bomb></filter-bomb>
       </div>
