@@ -52,7 +52,7 @@ export default {
     border: 6px solid black;
   }
   .wrapper {
-    margin: 10px;
+    margin: 5px;
   }
   .selected {
     border: 6px solid red;

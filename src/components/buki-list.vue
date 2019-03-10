@@ -29,8 +29,8 @@
             <img :src="imgPath('specials', data.special)" class="icon" />
             <img :src="imgPathBombPitcher(data.special)" class="bombpitcher-icon" v-if="data.special.indexOf('ボムピッチャー') > -1"/>
           </td>
-          <td>{{data.spPoint}}</td>
-          <td>
+          <td data-title="必要ポイント">{{data.spPoint}}</td>
+          <td data-title="射程">
             {{data.range.toFixed(1)}} <span v-if="data.range === 0.0">?</span>
           </td>
         </tr>
@@ -71,5 +71,28 @@ export default {
   }
   img.bombpitcher-icon {
     width: 30px;
+  }
+
+  @media (max-width: 767px) {
+    table {
+      border-collapse: separate;
+      border-spacing: 0  20px;
+    }
+    table thead {
+      display: none;
+    }
+    table tbody tr {
+      background-color: #f6f6f6;
+    }
+    table tbody td {
+      border: none;
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      border-bottom: 1px solid #dddddd;
+    }
+    table tbody td:before {
+      content: attr(data-title) " ";
+    }
   }
 </style>

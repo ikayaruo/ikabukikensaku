@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2>スペシャル</h2>
-    <div class="d-flex flex-wrap">
+    <div class="d-flex flex-wrap justify-content-start">
       <special v-for="special in specials" :key="special.name" :special="special"></special>
     </div>
   </div>
